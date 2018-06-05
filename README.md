@@ -24,6 +24,21 @@
 * **.h** (header): declarations and object interfaces
 * **.m** (method): definitions and object implementations
 
+
+### Objective-C Literals
+
+```objective-c
+// Plain Objective-C
+NSNumber *firstNumber = [NSNumber numberWithInt:7];
+```
+
+```objective-c
+// Objective-C Literals are a more simple, shorthand method
+// for working with some common Objective-C constructs.
+NSNumber *firstLiteral = @7;
+```
+
+
 ## Basic Types, Structures and Syntax
 
 ### Strings Variables
@@ -48,3 +63,4 @@
 ## References
 
 - [Objective-C for Swift Developers](https://teamtreehouse.com/library/objectivec-for-swift-developers-2)
+- [Introduction to Objective-C Literals for iOS Beginners](https://www.codementor.io/ios/tutorial/introduction-to-objective-c-literals-for-ios-beginners)
