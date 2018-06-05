@@ -51,6 +51,7 @@
 		533605BA20C67ED20032A854 /* learning-objective-cUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learning-objective-cUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		533605BE20C67ED20032A854 /* learning_objective_cUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learning_objective_cUITests.m; sourceTree = "<group>"; };
 		533605C020C67ED30032A854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76F5C71DC4414D265DFC107 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 				533605B220C67ED20032A854 /* learning-objective-cTests */,
 				533605BD20C67ED20032A854 /* learning-objective-cUITests */,
 				5336059820C67ED10032A854 /* Products */,
+				B76F5C71DC4414D265DFC107 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
