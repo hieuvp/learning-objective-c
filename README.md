@@ -6,6 +6,7 @@
 
 - [Concepts](#concepts)
   - [File Extensions](#file-extensions)
+  - [Objective-C Literals](#objective-c-literals)
 - [Basic Types, Structures and Syntax](#basic-types-structures-and-syntax)
   - [Strings Variables](#strings-variables)
   - [Numerical Variables](#numerical-variables)
@@ -34,7 +35,7 @@ NSNumber *firstNumber = [NSNumber numberWithInt:7];
 
 ```objective-c
 // Objective-C Literals are a more simple, shorthand method
-// for working with some common Objective-C constructs.
+// for working with some common Objective-C constructs
 NSNumber *firstLiteral = @7;
 ```
 
