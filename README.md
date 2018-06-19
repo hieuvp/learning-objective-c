@@ -111,6 +111,21 @@ double unitPrice = price / quantity;
 NSLog(@"%f", unitPrice);
 ```
 
+```objective-c
+NSNumber *unitPriceObject = [NSNumber numberWithDouble:unitPrice];
+NSLog(@"%@", unitPriceObject);
+NSLog(@"%f", [unitPriceObject doubleValue]);
+```
+
+```objective-c
+NSNumber *unitPriceObject = @(unitPrice);
+```
+
+```objective-c
+NSArray *unitPriceArray = @[@(unitPrice)];
+NSLog(@"%@", unitPriceArray);
+```
+
 ## References
 
 - [The Beginner's Guide to Objective-C: Language and Variables](http://blog.teamtreehouse.com/the-beginners-guide-to-objective-c-language-and-variables)
