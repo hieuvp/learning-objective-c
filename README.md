@@ -1,23 +1,79 @@
 # Learning Objective-C
 
+## Table of Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Concepts](#concepts)
+- [Fundamental Concepts](#fundamental-concepts)
+  - [Square Brackets](#square-brackets)
+  - [Memory Management](#memory-management)
+  - [Variables](#variables)
+    - [The `*` - Asterisk](#the----asterisk)
+    - [The `@` - At Symbol](#the----at-symbol)
   - [File Extensions](#file-extensions)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-## Concepts
+## Fundamental Concepts
+
+> **`Objective-C`** is based on the **`C`** programming language, with lots of object-oriented features added.
+
+### Square Brackets
+
+**`Objective-C`** maintains all the same syntax and features of **`C`**.
+
+```c
+// The makeEmpty message is sent to the mug object
+mug makeEmpty
+```
+
+In **`Objective-C`**, we simply surround such actions with `Square Brackets`:
+
+```objective-c
+[mug makeEmpty]
+```
+
+### Memory Management
+
+> In iOS 4.0, Apple introduced a concept called **`ARC`**(Automatic Reference Counting) which took much of the mundane pain of memory management away from **`Objective-C`** programming.
+
+Before that, you will see many `retain` and `release` messages passed to objects.
+
+### Variables
+
+![NSString title](screenshots/variables.png)
+
+#### The `*` - Asterisk
+
+> An operator that is used to **`de-reference`** a pointer. 
+
+- **`Pointers`** point to a location in memory where the actual data is stored.
+- **`De-reference`** a pointer means that we obtain the value stored in the memory where the pointer is pointing to.
+
+The following are all equivalent:
+
+```objective-c
+NSString* title;
+NSString * title; 
+NSString *title;
+```
+
+#### The `@` - At Symbol
+
+> A way to signal that whatever it is attached to is special to **`Objective-C`** and not part of regular **`C`**. 
+
+- **`@`** plus **`Text`** inside **`Double Quotes`** make up an **`NSString Literal`**.
 
 ### File Extensions
-* **.h** (header): declarations and object interfaces
-* **.m** (method): definitions and object implementations
+* **`.h`** (header): declarations and object interfaces
+* **`.m`** (method): definitions and object implementations
 
 
 ## References
 
+- [The Beginner's Guide to Objective-C: Language and Variables](http://blog.teamtreehouse.com/the-beginners-guide-to-objective-c-language-and-variables)
 - [Objective-C for Swift Developers](https://teamtreehouse.com/library/objectivec-for-swift-developers-2)
+
