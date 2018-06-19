@@ -126,6 +126,18 @@ NSArray *unitPriceArray = @[@(unitPrice)];
 NSLog(@"%@", unitPriceArray);
 ```
 
+```objective-c
+NSString *blurb = [NSString stringWithFormat:
+        @"You have selected %@. %@ come in a quantity of %d,"
+        " for a price of %.2f and a unit price of %.2f.",
+        product, product, quantity, price, unitPrice
+];
+
+// You have selected Bouncy Balls.
+// Bouncy Balls come in a quantity of 144,
+// for a price of 19.99 and a unit price of 0.14.
+```
+
 ## References
 
 - [The Beginner's Guide to Objective-C: Language and Variables](http://blog.teamtreehouse.com/the-beginners-guide-to-objective-c-language-and-variables)
