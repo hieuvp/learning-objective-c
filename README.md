@@ -96,6 +96,20 @@ NSLog(@"%s", greeting);
 
 ### Numbers
 
+```objective-c
+int quantity = 144;
+NSLog(@"%d", quantity);
+```
+
+```objective-c
+float price = 19.99;
+NSLog(@"%f", price);
+```
+
+```objective-c
+double unitPrice = price / quantity;
+NSLog(@"%f", unitPrice);
+```
 
 ## References
 
