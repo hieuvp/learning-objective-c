@@ -12,6 +12,9 @@
     - [The `*` - Asterisk](#the----asterisk)
     - [The `@` - At Symbol](#the----at-symbol)
   - [File Extensions](#file-extensions)
+- [Basic Types](#basic-types)
+  - [Strings](#strings)
+  - [Numbers](#numbers)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -70,6 +73,28 @@ NSString *title;
 ### File Extensions
 * **`.h`** (header): declarations and object interfaces
 * **`.m`** (method): definitions and object implementations
+
+
+## Basic Types
+
+### Strings
+
+```objective-c
+NSString *product = @"Bouncy Balls";
+NSLog(@"%@", product);
+```
+
+```objective-c
+NSString *product = [NSString stringWithUTF8String:"Bouncy Balls"];
+NSLog(@"%@", product);
+```
+
+```objective-c
+char greeting[] = "Howdy, Folks!";
+NSLog(@"%s", greeting);
+```
+
+### Numbers
 
 
 ## References
