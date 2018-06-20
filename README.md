@@ -14,7 +14,7 @@
   - [File Extensions](#file-extensions)
   - [Classes](#classes)
     - [Defining a Class](#defining-a-class)
-    - [Creating a New Class Instance](#creating-a-new-class-instance)
+    - [Creating an Instance](#creating-an-instance)
   - [Constants](#constants)
     - [Preprocessing Macros](#preprocessing-macros)
     - [const](#const)
@@ -88,7 +88,27 @@ NSString *title;
 
 #### Defining a Class
 
-#### Creating a New Class Instance
+```objective-c
+// Car.h
+#import <Foundation/Foundation.h>
+
+@interface Car : NSObject
+@end
+```
+
+```objective-c
+// Car.m
+#import "Car.h"
+
+@implementation Car
+@end
+```
+
+#### Creating an Instance
+
+```objective-c
+Car *car = [[Car alloc] init];
+```
 
 ### Constants
 
@@ -108,7 +128,7 @@ NSLog(@"MAX_NUMBER_OF_ROWS = %d", MAX_NUMBER_OF_ROWS);
 > More and more people seem to like this approach better.
 
 ```objective-c
-const int MAX_NUMBER_OF_ROWS = 10;
+int const MAX_NUMBER_OF_ROWS = 10;
 ```
 
 ##### static
