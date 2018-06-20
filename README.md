@@ -12,6 +12,10 @@
     - [The `*` - Asterisk](#the----asterisk)
     - [The `@` - At Symbol](#the----at-symbol)
   - [Constants](#constants)
+    - [Preprocessing Macros](#preprocessing-macros)
+    - [const](#const)
+      - [static](#static)
+      - [extern](#extern)
   - [Classes](#classes)
   - [File Extensions](#file-extensions)
 - [Types](#types)
@@ -75,6 +79,14 @@ NSString *title;
 - **`@`** plus **`Text`** inside **`Double Quotes`** make up an **`NSString Literal`**.
 
 ### Constants
+
+#### Preprocessing Macros
+
+#### const
+
+##### static
+
+##### extern
 
 ### Classes
 
