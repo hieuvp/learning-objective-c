@@ -11,6 +11,7 @@
   - [Variables](#variables)
     - [The `*` - Asterisk](#the----asterisk)
     - [The `@` - At Symbol](#the----at-symbol)
+  - [For...In Statement](#forin-statement)
   - [File Extensions](#file-extensions)
   - [Classes](#classes)
     - [Defining a Class](#defining-a-class)
@@ -77,6 +78,15 @@ NSString *title;
 > A way to signal that whatever it is attached to is special to **`Objective-C`** and not part of regular **`C`**. 
 
 - **`@`** plus **`Text`** inside **`Double Quotes`** make up an **`NSString Literal`**.
+
+### For...In Statement
+
+```objective-c
+NSArray *names = @[@"Peter", @"David", @"Lawrence"];
+for (NSString *name in names) {
+    NSLog(@"name = %@", name);
+}
+```
 
 ### File Extensions
 * **`.h`** (header): declarations and object interfaces.
@@ -167,6 +177,7 @@ NSString *const NAME = @"Mercedes";
 NSLog(@"NAME = %@", NAME);
 ```
 
+
 ## Types
 
 ### Strings
@@ -250,6 +261,7 @@ NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] initWithDi
         @"Population": @(656000)
 }];
 ```
+
 
 ## Object Orientation
 
