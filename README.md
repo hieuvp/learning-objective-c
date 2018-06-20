@@ -139,8 +139,34 @@ int const MAX_NUMBER_OF_ROWS = 10;
 
 - **`static`**
 
+> Same as `Java` or `JavaScript`.
+> The constant will only be available in the file.
+
+```objective-c
+// ViewController.m
+static NSString *const NAME = @"View Controller";
+
+NSLog(@"NAME = %@", NAME);
+```
+
 - **`extern`**
 
+> If you want to have a global constant.
+
+```objective-c
+// Car.h
+extern NSString *const NAME;
+```
+
+```objective-c
+// Car.m
+NSString *const NAME = @"Mercedes";
+```
+
+```objective-c
+// ViewController.m
+NSLog(@"NAME = %@", NAME);
+```
 
 ## Types
 
