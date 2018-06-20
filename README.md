@@ -13,6 +13,8 @@
     - [The `@` - At Symbol](#the----at-symbol)
   - [File Extensions](#file-extensions)
   - [Classes](#classes)
+    - [Defining a Class](#defining-a-class)
+    - [Creating a New Class Instance](#creating-a-new-class-instance)
   - [Constants](#constants)
     - [Preprocessing Macros](#preprocessing-macros)
     - [const](#const)
@@ -79,10 +81,14 @@ NSString *title;
 - **`@`** plus **`Text`** inside **`Double Quotes`** make up an **`NSString Literal`**.
 
 ### File Extensions
-* **`.h`** (header): declarations and object interfaces
-* **`.m`** (method): definitions and object implementations
+* **`.h`** (header): declarations and object interfaces.
+* **`.m`** (method): definitions and object implementations.
 
 ### Classes
+
+#### Defining a Class
+
+#### Creating a New Class Instance
 
 ### Constants
 
