@@ -1,11 +1,3 @@
-//
-//  learning_objective_cTests.m
-//  learning-objective-cTests
-//
-//  Created by Hieu Van on 6/5/18.
-//  Copyright © 2018 Hieu Van. All rights reserved.
-//
-
 #import <XCTest/XCTest.h>
 
 @interface learning_objective_cTests : XCTestCase

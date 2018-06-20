@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
 
-@interface Car : NSObject
+@interface Animal : NSObject
 
 @end
