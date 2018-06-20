@@ -93,6 +93,12 @@ NSLog(@"MAX_NUMBER_OF_ROWS = %d", MAX_NUMBER_OF_ROWS);
 
 #### const
 
+> More and more people seem to like this approach better.
+
+```objective-c
+const int MAX_NUMBER_OF_ROWS = 10;
+```
+
 ##### static
 
 ##### extern
