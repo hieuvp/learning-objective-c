@@ -15,6 +15,7 @@
 		533605AA20C67ED20032A854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 533605A920C67ED20032A854 /* main.m */; };
 		533605B420C67ED20032A854 /* learning_objective_cTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 533605B320C67ED20032A854 /* learning_objective_cTests.m */; };
 		533605BF20C67ED20032A854 /* learning_objective_cUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 533605BE20C67ED20032A854 /* learning_objective_cUITests.m */; };
+		B76F5E6014AE32970E839085 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = B76F538A1CB17AF1ACE216B0 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		533605BA20C67ED20032A854 /* learning-objective-cUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learning-objective-cUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		533605BE20C67ED20032A854 /* learning_objective_cUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learning_objective_cUITests.m; sourceTree = "<group>"; };
 		533605C020C67ED30032A854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76F538A1CB17AF1ACE216B0 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		B76F59EFCDB153CAF4ED0146 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		B76F5C71DC4414D265DFC107 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +115,8 @@
 				533605A520C67ED20032A854 /* LaunchScreen.storyboard */,
 				533605A820C67ED20032A854 /* Info.plist */,
 				533605A920C67ED20032A854 /* main.m */,
+				B76F538A1CB17AF1ACE216B0 /* Car.m */,
+				B76F59EFCDB153CAF4ED0146 /* Car.h */,
 			);
 			path = "learning-objective-c";
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 				5336059F20C67ED10032A854 /* ViewController.m in Sources */,
 				533605AA20C67ED20032A854 /* main.m in Sources */,
 				5336059C20C67ED10032A854 /* AppDelegate.m in Sources */,
+				B76F5E6014AE32970E839085 /* Car.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
