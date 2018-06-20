@@ -18,8 +18,6 @@
   - [Constants](#constants)
     - [Preprocessing Macros](#preprocessing-macros)
     - [Using `const`](#using-const)
-      - [static](#static)
-      - [extern](#extern)
 - [Types](#types)
   - [Strings](#strings)
   - [Numbers](#numbers)
@@ -137,9 +135,9 @@ NSLog(@"MAX_NUMBER_OF_ROWS = %d", MAX_NUMBER_OF_ROWS);
 int const MAX_NUMBER_OF_ROWS = 10;
 ```
 
-##### static
+- `static`
 
-##### extern
+- `extern`
 
 ## Types
 
