@@ -139,8 +139,7 @@ int const MAX_NUMBER_OF_ROWS = 10;
 
 - **`static`**
 
-> Same as `Java` or `JavaScript`.
-> The constant will only be available in the file.
+> Same as `Java` or `JavaScript` definition, the constant will be available in the file only.
 
 ```objective-c
 // ViewController.m
