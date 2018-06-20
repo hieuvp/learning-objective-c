@@ -104,13 +104,15 @@ NSString *title;
 
 #### Creating an Instance
 
+> **`new`** does not support custom initializers (e.g. `initWithString`)
+
 ```objective-c
-// Does not support custom initializers (e.g. initWithString)
 Car *car = [Car new];
 ```
 
+> **`alloc-init`** is more explicit than **`new`**
+
 ```objective-c
-// alloc-init is more explicit than new
 Car *car = [[Car alloc] init];
 ```
 
@@ -135,9 +137,10 @@ NSLog(@"MAX_NUMBER_OF_ROWS = %d", MAX_NUMBER_OF_ROWS);
 int const MAX_NUMBER_OF_ROWS = 10;
 ```
 
-- `static`
+- **`static`**
 
-- `extern`
+- **`extern`**
+
 
 ## Types
 
