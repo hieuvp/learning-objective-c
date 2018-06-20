@@ -82,6 +82,15 @@ NSString *title;
 
 #### Preprocessing Macros
 
+> It is called a preprocessing macro because before compile time all the occurrences of **`MAX_NUMBER_OF_ROWS`** will be replaced by the actual value, **`10`** in our case.
+
+```objective-c
+// This is not an actual constant
+#define MAX_NUMBER_OF_ROWS 10
+
+NSLog(@"MAX_NUMBER_OF_ROWS = %d", MAX_NUMBER_OF_ROWS);
+```
+
 #### const
 
 ##### static
