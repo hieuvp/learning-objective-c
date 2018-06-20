@@ -12,11 +12,13 @@
     - [The `*` - Asterisk](#the----asterisk)
     - [The `@` - At Symbol](#the----at-symbol)
   - [Constants](#constants)
+  - [Classes](#classes)
   - [File Extensions](#file-extensions)
 - [Types](#types)
   - [Strings](#strings)
   - [Numbers](#numbers)
   - [Dictionaries](#dictionaries)
+- [Object Orientation](#object-orientation)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -73,6 +75,8 @@ NSString *title;
 - **`@`** plus **`Text`** inside **`Double Quotes`** make up an **`NSString Literal`**.
 
 ### Constants
+
+### Classes
 
 ### File Extensions
 * **`.h`** (header): declarations and object interfaces
@@ -143,6 +147,9 @@ NSString *blurb = [NSString stringWithFormat:
 ```
 
 ### Dictionaries
+
+
+## Object Orientation
 
 
 ## References
