@@ -12,9 +12,10 @@
     - [The `*` - Asterisk](#the----asterisk)
     - [The `@` - At Symbol](#the----at-symbol)
   - [File Extensions](#file-extensions)
-- [Basic Types](#basic-types)
+- [Types](#types)
   - [Strings](#strings)
   - [Numbers](#numbers)
+  - [Dictionaries](#dictionaries)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -75,7 +76,7 @@ NSString *title;
 * **`.m`** (method): definitions and object implementations
 
 
-## Basic Types
+## Types
 
 ### Strings
 
@@ -137,6 +138,9 @@ NSString *blurb = [NSString stringWithFormat:
 // Bouncy Balls come in a quantity of 144,
 // for a price of 19.99 and a unit price of 0.14.
 ```
+
+### Dictionaries
+
 
 ## References
 
