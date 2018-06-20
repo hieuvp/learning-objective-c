@@ -17,7 +17,7 @@
     - [Creating an Instance](#creating-an-instance)
   - [Constants](#constants)
     - [Preprocessing Macros](#preprocessing-macros)
-    - [const](#const)
+    - [Using `const`](#using-const)
       - [static](#static)
       - [extern](#extern)
 - [Types](#types)
@@ -107,6 +107,12 @@ NSString *title;
 #### Creating an Instance
 
 ```objective-c
+// Does not support custom initializers (e.g. initWithString)
+Car *car = [Car new];
+```
+
+```objective-c
+// alloc-init is more explicit than new
 Car *car = [[Car alloc] init];
 ```
 
@@ -123,7 +129,7 @@ Car *car = [[Car alloc] init];
 NSLog(@"MAX_NUMBER_OF_ROWS = %d", MAX_NUMBER_OF_ROWS);
 ```
 
-#### const
+#### Using `const`
 
 > More and more people seem to like this approach better.
 
