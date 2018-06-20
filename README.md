@@ -233,24 +233,23 @@ NSString *blurb = [NSString stringWithFormat:
 ### Dictionaries
 
 ```objective-c
-NSDictionary *bostonDict = @{
+NSDictionary *dictionary = @{
         @"City": @"Boston",
         @"Country": @"USA"
 };
 
-NSString *city = [bostonDict valueForKey:@"City"];
+NSString *city = [dictionary valueForKey:@"City"];
 ```
 
 ```objective-c
-NSMutableDictionary *bostonMutableDict = [[NSMutableDictionary alloc] initWithDictionary:bostonDict];
+NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] initWithDictionary:dictionary];
 
-[bostonMutableDict setValue:@"Brazil" forKey:@"Country"];
+[mutableDictionary setValue:@"Brazil" forKey:@"Country"];
 
-[bostonMutableDict addEntriesFromDictionary:@{
+[mutableDictionary addEntriesFromDictionary:@{
         @"Population": @(656000)
 }];
 ```
-
 
 ## Object Orientation
 
