@@ -11,13 +11,13 @@
   - [Variables](#variables)
     - [The `*` - Asterisk](#the----asterisk)
     - [The `@` - At Symbol](#the----at-symbol)
+  - [File Extensions](#file-extensions)
+  - [Classes](#classes)
   - [Constants](#constants)
     - [Preprocessing Macros](#preprocessing-macros)
     - [const](#const)
       - [static](#static)
       - [extern](#extern)
-  - [Classes](#classes)
-  - [File Extensions](#file-extensions)
 - [Types](#types)
   - [Strings](#strings)
   - [Numbers](#numbers)
@@ -78,6 +78,12 @@ NSString *title;
 
 - **`@`** plus **`Text`** inside **`Double Quotes`** make up an **`NSString Literal`**.
 
+### File Extensions
+* **`.h`** (header): declarations and object interfaces
+* **`.m`** (method): definitions and object implementations
+
+### Classes
+
 ### Constants
 
 #### Preprocessing Macros
@@ -102,13 +108,6 @@ const int MAX_NUMBER_OF_ROWS = 10;
 ##### static
 
 ##### extern
-
-### Classes
-
-### File Extensions
-* **`.h`** (header): declarations and object interfaces
-* **`.m`** (method): definitions and object implementations
-
 
 ## Types
 
@@ -182,5 +181,6 @@ NSString *blurb = [NSString stringWithFormat:
 ## References
 
 - [The Beginner's Guide to Objective-C: Language and Variables](http://blog.teamtreehouse.com/the-beginners-guide-to-objective-c-language-and-variables)
+- [Learn Swift From Objective-C: Variables, Classes, Methods and Properties](https://codewithchris.com/learn-swift-from-objective-c)
 - [Constants in Objective C](https://www.ios-blog.com/tutorials/objective-c/constants-in-objective-c)
 - [Objective-C for Swift Developers](https://teamtreehouse.com/library/objectivec-for-swift-developers-2)
