@@ -11,6 +11,7 @@
   - [Variables](#variables)
     - [The `*` - Asterisk](#the----asterisk)
     - [The `@` - At Symbol](#the----at-symbol)
+  - [Constants](#constants)
   - [File Extensions](#file-extensions)
 - [Types](#types)
   - [Strings](#strings)
@@ -70,6 +71,8 @@ NSString *title;
 > A way to signal that whatever it is attached to is special to **`Objective-C`** and not part of regular **`C`**. 
 
 - **`@`** plus **`Text`** inside **`Double Quotes`** make up an **`NSString Literal`**.
+
+### Constants
 
 ### File Extensions
 * **`.h`** (header): declarations and object interfaces
@@ -145,5 +148,5 @@ NSString *blurb = [NSString stringWithFormat:
 ## References
 
 - [The Beginner's Guide to Objective-C: Language and Variables](http://blog.teamtreehouse.com/the-beginners-guide-to-objective-c-language-and-variables)
+- [Constants in Objective C](https://www.ios-blog.com/tutorials/objective-c/constants-in-objective-c)
 - [Objective-C for Swift Developers](https://teamtreehouse.com/library/objectivec-for-swift-developers-2)
-
