@@ -16,6 +16,7 @@
   - [Classes](#classes)
     - [Defining a Class](#defining-a-class)
     - [Creating an Instance](#creating-an-instance)
+    - [Curly Braces](#curly-braces)
   - [Constants](#constants)
     - [Preprocessing Macros](#preprocessing-macros)
     - [Using `const`](#using-const)
@@ -85,6 +86,7 @@ NSString *title;
 
 ```objective-c
 NSArray *names = @[@"Peter", @"David", @"Lawrence"];
+
 for (NSString *name in names) {
     NSLog(@"name = %@", name);
 }
@@ -128,6 +130,26 @@ Car *car = [Car new];
 
 ```objective-c
 Car *car = [[Car alloc] init];
+```
+
+#### Curly Braces
+
+> Are required to declare **`Instance Variables`**. If you omitted the braces, you would simply be declaring **`Global Variables`**.
+
+```objective-c
+@interface Car : NSObject {
+	// This block is actually optional
+}
+
+@end
+```
+
+```objective-c
+@implementation Car {
+	// This block is actually optional
+}
+
+@end
 ```
 
 ### Constants
