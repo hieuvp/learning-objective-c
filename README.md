@@ -364,7 +364,7 @@ The generated accessors are now called `isRunning` and `setRunning`.
 
 > AppCode generates `Override Methods`
 
-<img src="screenshots/appcode-generate-override-methods.png" width="250">
+<img src="screenshots/appcode-generate-override-methods.png" width="350">
 
 ```objective-c
 - (BOOL)isRunning {
