@@ -401,9 +401,15 @@ The generated accessors are now called `isRunning` and `setRunning`.
 
 #### **`strong`**
 
+> Create an `Owning Relationship` between the property and the assigned value. This is the **default** for object properties.
+
 #### **`weak`**
 
+> Create a `Non-owning Relationship` between the property and the assigned value. Use this to prevent retain cycles.
+
 #### **`copy`**
+
+> Create a copy of the assigned value instead of referencing the existing instance.
 
 ### Functions and Methods
 
