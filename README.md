@@ -316,7 +316,7 @@ NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] initWithDi
 @synthesize running = _running;
 ```
 
-> The compiler will generate `accessor methods` for the `running` property.
+> The compiler will generate `accessor methods` for the `running` property, like:
 
 ```objective-c
 - (BOOL)running {
@@ -329,6 +329,8 @@ NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] initWithDi
 ```
 
 ```objective-c
+// ViewController.m
+
 Car *honda = [[Car alloc] init];
 
 // Invoke the setter
@@ -336,6 +338,20 @@ honda.running = YES;
 
 // Invoke the getter
 NSLog(@"honda.running = %d", honda.running);
+```
+
+> AppCode generates **`@synthesize`**
+
+![AppCode Generate @synthesize](screenshots/appcode-generate-synthesize.png)
+
+```objective-c
+@implementation Car {
+@private
+    BOOL _running;
+}
+
+@synthesize running = _running;
+@end
 ```
 
 #### Custom Getters / Setters
