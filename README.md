@@ -26,6 +26,8 @@
   - [Dictionaries](#dictionaries)
 - [Object Orientation](#object-orientation)
   - [Properties](#properties)
+    - [**`@synthesize`**](#synthesize)
+    - [Custom Getters / Setters](#custom-getters--setters)
   - [Functions and Methods](#functions-and-methods)
 - [References](#references)
 
@@ -303,7 +305,9 @@ NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] initWithDi
 @property BOOL running;
 ```
 
-- **`@synthesize`**: tells the compiler to generate the **`getter`** and **`setter`** of a variable.
+#### **`@synthesize`**
+
+> Tells the compiler to generate the **`getter`** and **`setter`** of a variable.
 
 ```objective-c
 // Car.m
@@ -333,6 +337,8 @@ honda.running = YES;
 // Invoke the getter
 NSLog(@"honda.running = %d", honda.running);
 ```
+
+#### Custom Getters / Setters
 
 ### Functions and Methods
 
