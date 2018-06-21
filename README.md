@@ -316,7 +316,7 @@ NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] initWithDi
 @synthesize running = _running;
 ```
 
-> The compiler will generate `accessor methods` for the `running` property, like:
+> The compiler will generate `Accessor Methods` for the `running` property, like:
 
 ```objective-c
 - (BOOL)running {
@@ -355,6 +355,28 @@ NSLog(@"honda.running = %d", honda.running);
 ```
 
 #### Custom Getters / Setters
+
+```objective-c
+@property(getter=isRunning) BOOL running;
+```
+
+The generated accessors are now called `isRunning` and `setRunning`.
+
+> AppCode generates `Override Methods`
+
+<img src="screenshots/appcode-generate-override-methods.png" width="250">
+
+```objective-c
+- (BOOL)isRunning {
+    NSLog(@"isRunning is called");
+    return _running;
+}
+
+- (void)setRunning:(BOOL)running {
+    NSLog(@"setRunning is called");
+    _running = running;
+}
+```
 
 ### Functions and Methods
 
