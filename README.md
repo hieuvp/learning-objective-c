@@ -342,7 +342,7 @@ NSLog(@"honda.running = %d", honda.running);
 
 > AppCode generates **`@synthesize`**
 
-![AppCode Generate @synthesize](screenshots/appcode-generate-synthesize.png)
+<img src="screenshots/appcode-generate-synthesize.png" width="250">
 
 ```objective-c
 @implementation Car {
