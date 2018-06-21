@@ -385,7 +385,7 @@ The generated accessors are now called `isRunning` and `setRunning`.
 
 #### **`readonly`**
 
-> Do not synthesize a setter method.
+> Do not synthesize a **`setter`** method.
 
 ```objective-c
 @property(readonly) BOOL running;
