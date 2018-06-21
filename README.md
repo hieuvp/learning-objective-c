@@ -64,6 +64,10 @@ In **`Objective-C`**, we simply surround such actions with `Square Brackets`:
 
 Before that, you will see many `retain` and `release` messages passed to objects.
 
+> **Object Ownership**: Destroying an object with no owners.
+
+![Destroying an object with no owners](screenshots/object-ownership.png)
+
 ### Variables
 
 ![NSString title](screenshots/variables.png)
