@@ -28,6 +28,11 @@
   - [Properties](#properties)
     - [**`@synthesize`**](#synthesize)
     - [Custom Getters / Setters](#custom-getters--setters)
+    - [**`readonly`**](#readonly)
+    - [**`nonatomic`**](#nonatomic)
+    - [**`strong`**](#strong)
+    - [**`weak`**](#weak)
+    - [**`copy`**](#copy)
   - [Functions and Methods](#functions-and-methods)
 - [References](#references)
 
@@ -377,6 +382,22 @@ The generated accessors are now called `isRunning` and `setRunning`.
     _running = running;
 }
 ```
+
+#### **`readonly`**
+
+> Do not synthesize a setter method.
+
+```objective-c
+@property(readonly) BOOL running;
+```
+
+#### **`nonatomic`**
+
+#### **`strong`**
+
+#### **`weak`**
+
+#### **`copy`**
 
 ### Functions and Methods
 
