@@ -24,6 +24,8 @@
   - [Numbers](#numbers)
   - [Dictionaries](#dictionaries)
 - [Object Orientation](#object-orientation)
+  - [Properties](#properties)
+  - [Functions and Methods](#functions-and-methods)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -264,6 +266,10 @@ NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] initWithDi
 
 
 ## Object Orientation
+
+### Properties
+
+### Functions and Methods
 
 
 ## References
