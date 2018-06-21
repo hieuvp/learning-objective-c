@@ -393,6 +393,8 @@ The generated accessors are now called `isRunning` and `setRunning`.
 
 #### **`nonatomic`**
 
+> Do not guarantee the integrity of `Accessors` in a multi-threaded environment. This is more efficient than the **default** **`atomic`** behavior.
+
 #### **`strong`**
 
 #### **`weak`**
