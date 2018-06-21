@@ -100,6 +100,7 @@ for (NSString *name in names) {
 
 ```objective-c
 // Car.h
+
 #import <Foundation/Foundation.h>
 
 @interface Car : NSObject
@@ -108,6 +109,7 @@ for (NSString *name in names) {
 
 ```objective-c
 // Car.m
+
 #import "Car.h"
 
 @implementation Car
@@ -155,6 +157,7 @@ int const MAX_NUMBER_OF_ROWS = 10;
 
 ```objective-c
 // ViewController.m
+
 static NSString *const NAME = @"View Controller";
 
 NSLog(@"NAME = %@", NAME);
@@ -166,16 +169,19 @@ NSLog(@"NAME = %@", NAME);
 
 ```objective-c
 // Car.h
+
 extern NSString *const NAME;
 ```
 
 ```objective-c
 // Car.m
+
 NSString *const NAME = @"Mercedes";
 ```
 
 ```objective-c
 // ViewController.m
+
 NSLog(@"NAME = %@", NAME);
 ```
 
@@ -268,6 +274,43 @@ NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] initWithDi
 ## Object Orientation
 
 ### Properties
+
+```objective-c
+// Car.h
+
+@property BOOL running;
+```
+
+- **`@synthesize`**: tells the compiler to generate the **`getter`** and **`setter`** of a variable.
+
+```objective-c
+// Car.m
+
+// Optional - clang compiler from Xcode 4.4+ will be automatically synthesized
+@synthesize running = _running;
+```
+
+> The compiler will generate **`accessor methods`** for the `running` property
+
+```objective-c
+- (BOOL)running {
+    return _running;
+}
+
+- (void)setRunning:(BOOL)newValue {
+    _running = newValue;
+}
+```
+
+```objective-c
+Car *honda = [[Car alloc] init];
+
+// Invoke the setter
+honda.running = YES;
+
+// Invoke the getter
+NSLog(@"honda.running = %d", honda.running);
+```
 
 ### Functions and Methods
 
