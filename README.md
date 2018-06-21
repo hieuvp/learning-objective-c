@@ -278,3 +278,4 @@ NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] initWithDi
 - [Learn Swift From Objective-C: Variables, Classes, Methods and Properties](https://codewithchris.com/learn-swift-from-objective-c)
 - [Constants in Objective C](https://www.ios-blog.com/tutorials/objective-c/constants-in-objective-c)
 - [Objective-C for Swift Developers](https://teamtreehouse.com/library/objectivec-for-swift-developers-2)
+- [Properties](http://assets.iosappsdev.org/objective-c/tutorials/objective-c/properties.html)

@@ -16,6 +16,7 @@
 		533605B420C67ED20032A854 /* learning_objective_cTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 533605B320C67ED20032A854 /* learning_objective_cTests.m */; };
 		533605BF20C67ED20032A854 /* learning_objective_cUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 533605BE20C67ED20032A854 /* learning_objective_cUITests.m */; };
 		B76F5A63E30E279F8770C171 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = B76F52B7C3EA537BEF1F38E2 /* Animal.m */; };
+		B76F5B36DB83EB03737AE1B7 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = B76F52D2B7B62A407C130B2A /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		533605C020C67ED30032A854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B76F50B272F59F4BE526B404 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		B76F52B7C3EA537BEF1F38E2 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		B76F52D2B7B62A407C130B2A /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		B76F5C4FBEF43FCB8E77401D /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		B76F5C71DC4414D265DFC107 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +120,8 @@
 				533605A920C67ED20032A854 /* main.m */,
 				B76F52B7C3EA537BEF1F38E2 /* Animal.m */,
 				B76F50B272F59F4BE526B404 /* Animal.h */,
+				B76F52D2B7B62A407C130B2A /* Car.m */,
+				B76F5C4FBEF43FCB8E77401D /* Car.h */,
 			);
 			path = "learning-objective-c";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				533605AA20C67ED20032A854 /* main.m in Sources */,
 				5336059C20C67ED10032A854 /* AppDelegate.m in Sources */,
 				B76F5A63E30E279F8770C171 /* Animal.m in Sources */,
+				B76F5B36DB83EB03737AE1B7 /* Car.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
