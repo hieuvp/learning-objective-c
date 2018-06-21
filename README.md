@@ -290,7 +290,7 @@ NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] initWithDi
 @synthesize running = _running;
 ```
 
-> The compiler will generate **`accessor methods`** for the `running` property
+> The compiler will generate `accessor methods` for the `running` property.
 
 ```objective-c
 - (BOOL)running {
