@@ -8,6 +8,7 @@
 - [Fundamental Concepts](#fundamental-concepts)
   - [Square Brackets](#square-brackets)
   - [Memory Management](#memory-management)
+    - [Object Ownership](#object-ownership)
   - [Variables](#variables)
     - [The `*` - Asterisk](#the----asterisk)
     - [The `@` - At Symbol](#the----at-symbol)
@@ -64,7 +65,7 @@ In **`Objective-C`**, we simply surround such actions with `Square Brackets`:
 
 Before that, you will see many `retain` and `release` messages passed to objects.
 
-> **Object Ownership**
+#### Object Ownership
 
 ![Destroying an object with no owners](screenshots/object-ownership.png)
 
