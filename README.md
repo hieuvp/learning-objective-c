@@ -150,7 +150,8 @@ Car *car = [[Car alloc] init];
 
 ```objective-c
 @interface Car : NSObject {
-	// This block is actually optional
+	// This block is optional
+	NSNumber *id;
 }
 
 @end
@@ -158,7 +159,8 @@ Car *car = [[Car alloc] init];
 
 ```objective-c
 @implementation Car {
-	// This block is actually optional
+	// This block is optional
+	NSNumber *id;
 }
 
 @end
