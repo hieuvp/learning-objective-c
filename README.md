@@ -64,7 +64,7 @@ In **`Objective-C`**, we simply surround such actions with `Square Brackets`:
 
 Before that, you will see many `retain` and `release` messages passed to objects.
 
-> **Object Ownership**: Destroying an object with no owners.
+> **Object Ownership**
 
 ![Destroying an object with no owners](screenshots/object-ownership.png)
 
@@ -91,7 +91,7 @@ NSString *title;
 
 > A way to signal that whatever it is attached to is special to **`Objective-C`** and not part of regular **`C`**. 
 
-- **`@`** plus **`Text`** inside **`Double Quotes`** make up an **`NSString Literal`**.
+- `@"text"`: **NSString Literal**
 
 ### For...In Statement
 
