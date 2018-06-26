@@ -146,6 +146,15 @@ for (NSString *name in names) {
 
 #### The `<>` - Angle-bracket Form
 
+> For `Global Includes`.
+
+```objective-c
+// Found on the include path passed to the compiler
+#import <Foundation/Foundation.h>
+```
+
+![Xcode Search Paths](screenshots/xcode-search-paths.png)
+
 ### Classes
 
 #### Defining a Class
