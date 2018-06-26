@@ -504,6 +504,17 @@ NSLog(@"car.group = %d", car.group);
 
 ### Functions
 
+```objective-c
+void greet(NSString *name) {
+    NSString *bigGreeting = [name uppercaseString];
+    NSLog(@"Hey there, %@", bigGreeting);
+}
+```
+
+```objective-c
+greet(@"David");
+```
+
 ### Methods
 
 
@@ -514,3 +525,4 @@ NSLog(@"car.group = %d", car.group);
 - [Constants in Objective C](https://www.ios-blog.com/tutorials/objective-c/constants-in-objective-c)
 - [Objective-C for Swift Developers](https://teamtreehouse.com/library/objectivec-for-swift-developers-2)
 - [Properties](http://assets.iosappsdev.org/objective-c/tutorials/objective-c/properties.html)
+- [Understanding the Difference Between Functions and Methods in Objective-C](https://medium.com/@jsogarro/understanding-the-difference-between-functions-and-methods-in-objective-c-152ed1629db9)
