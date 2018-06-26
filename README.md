@@ -505,6 +505,8 @@ NSLog(@"car.group = %d", car.group);
 ### Functions
 
 ```objective-c
+// ViewController.m
+
 void greet(NSString *name) {
     NSString *bigGreeting = [name uppercaseString];
     NSLog(@"Hey there, %@", bigGreeting);
@@ -512,6 +514,8 @@ void greet(NSString *name) {
 ```
 
 ```objective-c
+// ViewController.m
+
 greet(@"David");
 ```
 
