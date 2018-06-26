@@ -39,6 +39,7 @@
     - [**`strong`**](#strong)
     - [**`weak`**](#weak)
     - [**`copy`**](#copy)
+  - [Enumerators](#enumerators)
   - [Functions](#functions)
   - [Methods](#methods)
 - [References](#references)
@@ -460,6 +461,43 @@ The generated accessors are now called `isRunning` and `setRunning`.
 #### **`copy`**
 
 > Create a copy of the assigned value instead of referencing the existing instance.
+
+### Enumerators
+
+```objective-c
+// Car.h
+
+enum Group {
+    SUV,
+    Truck,
+    Van,
+    SportsCar,
+};
+```
+
+> `SUV` is equal to `0`, `Truck` is `1` and so on.
+
+```objective-c
+enum Group {
+    SUV = 1,
+    Truck,
+    Van,
+    SportsCar,
+};
+```
+
+> In this case, `SUV` will be `1`, `Truck` will be `2` etc.
+
+```objective-c
+// Car.h
+
+@property(nonatomic) enum Group group;
+```
+
+```objective-c
+honda.group = Van;
+NSLog(@"honda.group = %d", honda.group);
+```
 
 ### Functions
 
