@@ -495,8 +495,11 @@ enum Group {
 ```
 
 ```objective-c
-honda.group = Van;
-NSLog(@"honda.group = %d", honda.group);
+// ViewController.m
+
+Car *car = [[Car alloc] init];
+car.group = Truck;
+NSLog(@"car.group = %d", car.group);
 ```
 
 ### Functions
