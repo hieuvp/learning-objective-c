@@ -14,7 +14,7 @@
     - [The `@` - At Symbol](#the----at-symbol)
   - [For...In Statement](#forin-statement)
   - [File Extensions](#file-extensions)
-  - [Import](#import)
+  - [Imports](#imports)
     - [`#include`](#include)
     - [`#import`](#import)
     - [The `""` - Quoted Form](#the----quoted-form)
