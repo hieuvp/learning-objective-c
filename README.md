@@ -14,6 +14,11 @@
     - [The `@` - At Symbol](#the----at-symbol)
   - [For...In Statement](#forin-statement)
   - [File Extensions](#file-extensions)
+  - [Import](#import)
+    - [`#import`](#import)
+    - [`#include`](#include)
+    - [The `""` - Quoted Form](#the----quoted-form)
+    - [The `<>` - Angle-bracket Form](#the----angle-bracket-form)
   - [Classes](#classes)
     - [Defining a Class](#defining-a-class)
     - [Creating an Instance](#creating-an-instance)
@@ -34,7 +39,8 @@
     - [**`strong`**](#strong)
     - [**`weak`**](#weak)
     - [**`copy`**](#copy)
-  - [Functions and Methods](#functions-and-methods)
+  - [Functions](#functions)
+  - [Methods](#methods)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -414,7 +420,9 @@ The generated accessors are now called `isRunning` and `setRunning`.
 
 > Create a copy of the assigned value instead of referencing the existing instance.
 
-### Functions and Methods
+### Functions
+
+### Methods
 
 
 ## References
