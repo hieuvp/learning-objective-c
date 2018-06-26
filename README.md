@@ -137,6 +137,12 @@ for (NSString *name in names) {
 
 #### The `""` - Quoted Form
 
+> For `Local Includes`.
+
+```objective-c
+// Need to specify the relative path
+#import "Car.h"
+```
 
 #### The `<>` - Angle-bracket Form
 
