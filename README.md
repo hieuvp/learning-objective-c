@@ -521,6 +521,25 @@ greet(@"David");
 
 ### Methods
 
+```objective-c
+// Car.h
+
+- (void)paint:(NSString *)brand withColor:(NSString *)color;
+```
+
+```objective-c
+// Car.m
+
+- (void)paint:(NSString *)brand withColor:(NSString *)color {
+    NSLog(@"Your car is painting using %@ with %@", [brand uppercaseString], color);
+};
+```
+
+```objective-c
+// ViewController.m
+
+[car paint:@"Autocolor" withColor:@"Black"];
+```
 
 ## References
 
