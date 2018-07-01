@@ -2,6 +2,6 @@
 
 @interface Car : NSObject
 
-@property BOOL running;
+- (void)paint:(NSString *)brand withColor:(NSString *)color;
 
 @end

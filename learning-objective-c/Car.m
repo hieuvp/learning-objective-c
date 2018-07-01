@@ -2,7 +2,8 @@
 
 @implementation Car
 
-// Optional: clang compiler from Xcode 4.4+ will be automatically synthesized
-@synthesize running = _running;
+- (void)paint:(NSString *)brand withColor:(NSString *)color {
+    NSLog(@"Your car is painting using %@ with %@", [brand uppercaseString], color);
+}
 
 @end

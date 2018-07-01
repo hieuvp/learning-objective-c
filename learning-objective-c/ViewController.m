@@ -1,4 +1,5 @@
 #import "ViewController.h"
+#import "Car.h"
 
 @implementation ViewController
 
@@ -6,6 +7,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
+    Car *car = [[Car alloc] init];
+
+    [car paint:@"Wow" withColor:@"Yellow"];
 }
 
 - (void)didReceiveMemoryWarning {
